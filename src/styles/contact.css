@@ -1,0 +1,37 @@
+.sectionOne__content--text {
+  font-size: var(--sub);
+  font-family: var(--font-2);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-family: var(--font-2);
+  font-size: var(--sub);
+}
+input,
+textarea {
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: 1.5px solid #212529;
+  border-radius: 3px;
+  background-color: #eee;
+}
+.dark-btn {
+  margin-top: 10px;
+}
+
+/* Media Query */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sectionTwo__left {
+    order: 1;
+  }
+  .sectionTwo__right {
+    order: 0;
+  }
+}
